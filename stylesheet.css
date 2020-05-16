@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(255, 255, 255);
+  background-repeat: x y;
+}
+
+h1 {
+  background-color: rgb(51, 130, 145);
+  text-align: center;
+}
+
+h2 {
+  background-color: rgb(18, 78, 43);
+  color: #0a001a;
+  text-align: center;
+}
+ 
+table {
+  background-color: rgb(75, 100, 182);
+  width: 100%;
+}
+
+tbody td {
+  background-color: rgb(77, 101, 179);
+}
