@@ -1,6 +1,17 @@
 body {
   background-color: rgb(255, 255, 255);
   background-repeat: x y;
+  background-size: cover;
+}
+
+.box {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  left: 20%;
+  background: rgb(21, 122, 97);
+  box-sizing: content-box;
+
 }
 
 h1 {
@@ -9,7 +20,7 @@ h1 {
 }
 
 h2 {
-  background-color: rgb(18, 78, 43);
+  background-color: white;
   color: #0a001a;
   text-align: center;
 }

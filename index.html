@@ -1,43 +1,58 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
     <meta charset="utf-8">
-    <title>Weekend 1 Assignment</title>
-    <script src="jquery.js" charset="utf-8"></script>
-    <script src="client.js" charset="utf-8"></script>
+    <title>SALARY CALCULATOR</title>
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
+ 
 
-<body>
-    <h1>Salary Calculator</h1>
-    <label for="firstName">First Name</label>
-    <input type="text" name="firstName" placeholder="First Name" id="firstName" class="inputForm">
-    <label for="lastName">Last Name</label>
-    <input type="text" name="lastName" id="lastName" placeholder="Last Name" class="inputForm">
-    <label for="idNumber">ID Number</label>
-    <input type="number" name="idNumber " id="idNumber" placeholder="ID Number" class="inputForm">
-    <label for="jobTitle">Job Title</label>
-    <input type="text" name="jobTitle " id="jobTitle" placeholder="Job Title" class="inputForm">
-    <label for="annualSalary">Annual Salary</label>
-    <input type="number" name="annualSalary" id="annualSalary" placeholder="Annual Salary" class="inputForm">
-    <button type="button" id="submitButton">Submit</button>
+<div class="box">
+   
+    <div class="inputBox"></div>
 
-    <h2>Employee List</h2>
-    <table>
+    <body>
+    <h1>Employee Data</h1>
+    <h2>
+        <label for='firstName'>First Name</label>
+        <input type='text' id='firstName' name='firstName'></input>
+    </h2>
+    <h2>
+        <label for='lastName'>Last Name</label>
+        <input type='text' id='lastName' name='lastName'></input>
+    </h2>
+    <h2>
+        <label for='idNumber'>ID Number</label>
+        <input type='number' id='idNumber' name='idNumber'></input>
+    </h2>
+    <h2>
+        <label for='jobTitle'>Job Title</label>
+        <input type='text' id='jobTitle' name='jobTitle'></input>
+    </h2>
+    <h2>
+        <label for='annualSalary'>Annual Salary</label>
+        <input type='number' id='annualSalary' name='annualSalary'></input>
+    </h2>
+    <h3>
+        <button type='button' name='button' id='button'>Submit</button>
+        <button type='button' name='clear' id='clear'>Clear</button></h3>
+
+    <table cellpadding="1" cellspacing="1" id="resultTable">
         <thead>
             <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>ID</th>
-                <th>Title</th>
-                <th>Annual Salary</th>
-                <th>Delete</th>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>ID NUMBER</th>
+                <th>JOB TITLE</th>
+                <th>ANNUAL SALARY</th>
             </tr>
         </thead>
-        <tbody id="employeeTable">
-        </tbody>
     </table>
+    <h2>TOTAL MONTHLY: <span id="monthExp">0</span></h2>
 </body>
 
 </html>
